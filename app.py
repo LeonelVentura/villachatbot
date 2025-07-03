@@ -5,7 +5,8 @@ from PyPDF2 import PdfReader
 import os
 
 # Configuración inicial - REEMPLAZA CON TU API KEY
-client = OpenAI(api_key=os.environ.get("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"))  # Sintaxis nueva
+client = OpenAI(api_key=os.environ.get("OPENAI_API_KEY"))
+ # Sintaxis nueva
 
 # 1. Validación de estudiantes
 def validar_estudiante(codigo):
